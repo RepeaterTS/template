@@ -1,4 +1,3 @@
-  
 /**
  * The mythical function
  */
