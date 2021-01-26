@@ -8,8 +8,13 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "esModuleInterop": true,
-    "outDir": "dist"
+    "types": ["node"],
+    "outDir": "dist",
+    "noUnusedLocals": true,
+    "removeComments": false,
+    "importsNotUsedAsValues": "error",
   },
+  "compileOnSave": true,
 	"include": [
 		"./src/**/*",
 		"./test/**/*"
