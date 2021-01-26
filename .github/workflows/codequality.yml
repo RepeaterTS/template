@@ -106,4 +106,3 @@ jobs:
         git push origin $TARGET_BRANCH
       env:
         GITHUB_TOKEN: ${{ secrets.COMMIT_TOKEN }}
-© 2021 GitHub, Inc.
