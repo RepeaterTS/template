@@ -1,5 +1,8 @@
 {
-    "inputFiles": ["./src"],
-    "mode": "modules",
-    "json": "./docs.json"
+    "out": "./docs/",
+    "readme": "./README.md",
+    "name": "@repeaterts/template",
+    "entryPoints": ["src/index.ts"],
+    "excludeExternals": true,
+    "tsconfig": "./tsconfig.json"
 }
