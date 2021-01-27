@@ -1,5 +1,8 @@
 {
-  "type": "module",
+  "name": "@redstonets/template",
+  "version": "0.0.1",
+  "description": "an example template",
+  "main": "dist/src/index.js",
   "scripts": {
     "prepublishOnly": "yarn build",
     "build": "tsc",
