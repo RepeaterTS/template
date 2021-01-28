@@ -7,7 +7,7 @@
     "prepublishOnly": "yarn build",
     "build": "tsc",
     "start": "node dist/app.js",
-    "debug": "node --loader ts-node/esm src/app.js",
+    "debug": "ts-node src/app.js",
     "test": "ava",
     "test:lint": "eslint --ext ts src test",
     "test:coverage": "npx nyc check-coverage --lines 90 --functions 90 --branches 90",
