@@ -109,3 +109,11 @@ yarn.lock
 
 # Docs
 docs/
+
+# Jest
+!src/**/*.d.ts
+**/*.tsbuildinfo
+!jest.config.ts
+
+# Ignore GH Cli downloaded from workflows >:(
+gh
