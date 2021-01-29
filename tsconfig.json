@@ -1,15 +1,29 @@
 {
   "compilerOptions": {
     "target": "ES2020",
-    "module": "ES2020",
+    "module": "commonjs",
     "sourceMap": true,
     "declaration": true,
     "strict": true,
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "esModuleInterop": true,
-    "outDir": "dist"
+    "types": ["node"],
+    "outDir": "dist",
+    "noUnusedLocals": true,
+    "removeComments": false,
+    "importsNotUsedAsValues": "error",
   },
-  "include": ["src"],
-  "exclude": ["dist", "node_modules"]
+  "compileOnSave": true,
+	"include": [
+		"./src/**/*",
+		"./test/**/*"
+	],
+	"exclude": [
+    "dist",
+		"node_modules",
+		"bin",
+		"examples",
+		"scripts"
+	],
 }
